@@ -1,51 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Kongu Engineering College</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shop</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: blue;
-            color: white;
-        }
+        .product {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #eef1ef;
+    border-radius: 5px;
+    background-color: #90ea91;
+    text-align: center; 
+}
 
-        header {
-            background-color: lightblue;
-            padding: 20px;
+.product img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+        .product {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ebeeec;
+            border-radius: 5px;
+            background-color: #addfa5;
             text-align: center;
         }
 
-        h1 {
-            color: white;
+        .product img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
         }
-
-        main {
-            padding: 20px;
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        /* Table */
+            table,
+            th,
+            td {
+            border: 1px solid black;
+                }
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .content {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1024px;
+            width: 90%;
         }
     </style>
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shop</title>
+    <style>
+        /* ... Your existing CSS styles ... */
+    </style>
+</head>
+<body>
     <header>
-        <h1>KONGU ENGINEERING COLLEGE</h1>
+        <h1>Grocery Shop</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="content">
+            <h1 padding-block: 40px>Welcome to Grocery Shop</h1>
+            <p>At Grocery Shop, we are committed to providing you with the freshest and highest-quality groceries at affordable prices. We understand that a trip to the grocery store is not just a chore; it's an essential part of everyday life. That's why we've created a one-stop shopping experience that caters to all your needs.</p>
+    </nav>
+    <div class="container">
+        <div class="product">
+            <img src="1.jpg" alt="Product 1">
+            <h2>Tomato</h2>
+            <p>Price: $5.99</p>
+        </div>
+        <div class="product">
+            <img src="2.jpg" alt="Product 2">
+            <h2>Potato</h2>
+            <p>Price: $3.49</p>
+        </div>
+        <div class="product">
+            <img src="3.jpg" alt="Product 3">
+            <h2>Onion</h2>
+            <p>Price: $2.99</p>
+        </div>
+        <div style="text-align: center;">
+            <h2>Shop Video</h2>
+            <video width="820" height="340" controls>
+                <source src="G.mp4" type="video/mp4">
+                <source src="G.ogg" type="video/ogg">
+              </video>
+        </div>
 
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Kongu Engineering College is a premier institution located in Tamil Nadu, India.</p>
-        </section>
+        <!-- Price List Table -->
+        <h2>Price List</h2>
+        <table class="center" width="50%" >
+            <tr>
+            <th>Items</th>
+            <th>Rate</th>
+            </tr>
+            <tr>
+            <td>Tomato</td>
+            <td>150₹</td>
+            </tr>
+            <tr>
+            <td>Potato</td>
+            <td>70₹</td>
+            </tr>
+            <tr>
+            <td>Onion</td>
+            <td>100₹</td>
+            <tr>
+            <td>Carrot</td>
+            <td>50₹</td>
+            </table>
+    </div>
+    <p style="text-align: center;">_______THANKS FOR YOUR VISIT_______</p>
+</body>
+</html>
 
-        <section>
-            <h2>Courses Offered</h2>
-            <ul>
-                <li>Computer Science Engineering</li>
-                <li>Electrical and Electronics Engineering</li>
-                <li>Mechanical Engineering</li>
-                <li>Civil Engineering</li>
-            </ul>
-        </section>
-    </main>
 </body>
 </html>
